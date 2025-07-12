@@ -1,9 +1,9 @@
 const countArg = process.argv[2];
-const numOccurences = parseInt(countArg);
-if (isNaN(numOccurences)|| numOccurences <= 0) {
-    console.log("Missing number of occurences");
+const numOccurrences = parseInt(countArg);
+if (isNaN(numOccurrences)|| numOccurrences <= 0) {
+    console.log("Missing number of occurrences");
 } else {
-    for (let i = 0; i < numOccurences; i++) {
+    for (let i = 0; i < numOccurrences; i++) {
         console.log("C is fun");
     }
 }
